@@ -1,0 +1,35 @@
+# Compiled output
+*.class
+target/
+out/
+bin/
+build/
+
+# Packaged artefacts
+*.jar
+*.war
+*.ear
+
+# Maven
+dependency-reduced-pom.xml
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+hs_err_pid*
