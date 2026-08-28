@@ -22,7 +22,7 @@ public class Paddle extends Sprite  {
     
     private void loadImage() {
         
-        var ii = new ImageIcon("src/resources/paddle.png");
+        var ii = new ImageIcon(getClass().getResource("/resources/paddle.png"));
         image = ii.getImage();        
     }    
 
